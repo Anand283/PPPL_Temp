@@ -77,11 +77,9 @@ Layout: Single-Page Application (SPA) scrolling layout with a sticky navigation 
 
 Deployment: The project will be pushed to GitHub and automatically deployed using Vercel.
 
-5. Design System & UI Guidelines
-Color Palette: * Primary: Stark Black (#111111) and Clean White (#F9F9F9).
-
-Accent: Industrial Yellow (#FFD700) or raw Kraft Brown (#C19A6B) for active tabs, buttons, and warnings.
-
-Typography: Oversized, bold sans-serif (e.g., Inter, Roboto Mono for the Market Wall numbers).
-
-Imagery: Use UI placeholders for macro-shots of corrugated flutes, running automated machinery, and the 2024 Award badge.
+### 5. Design System & UI Guidelines
+* **Color Palette (Brand Matched):** * Primary Structural: Brand Blue (`#2981cf`) - Used for the Nav Bar and Footer to frame the site.
+    * Primary Accent: Brand Green (`#0aa36b`) - Used for interactive elements, buttons, active tabs, and highlighting important text/data.
+    * Backgrounds: Clean White (`#FFFFFF`) and Light Gray (`#F9F9F9`) to maintain strict readability and high contrast.
+* **Typography:** Clean, highly readable sans-serif (e.g., Inter or Roboto). Use a monospace font for the Market Wall numbers.
+* **Imagery:** Use UI placeholders for macro-shots of corrugated flutes, running automated machinery, and the 2024 Award badge.

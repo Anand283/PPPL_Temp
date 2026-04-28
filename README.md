@@ -96,17 +96,22 @@ Every push to `main` triggers an automatic redeploy.
 
 ## Design System
 
-| Token | Value |
-|-------|-------|
-| Primary dark | `#111111` |
-| Off-white | `#F9F9F9` |
-| Industrial Yellow (accent) | `#FFD700` |
-| Kraft Brown (secondary) | `#C19A6B` |
-| Terminal background | `#0a0a0a` |
-| Terminal green (price up) | `#00FF41` |
-| Terminal red (price down) | `#FF5555` |
+| Token | Value | Usage |
+|-------|-------|-------|
+| Brand Blue | `#2981cf` | Sticky nav, footer, step-card shadows, "Bulk Orders" badge |
+| Brand Green | `#0aa36b` | CTAs, active tab highlight, ticker text, icon boxes |
+| Hero background | `#f0f7ff` | Barely-blue hero tint |
+| Content background | `#ffffff` | All main sections |
+| Section alternate | `#f9fafb` (`gray-50`) | Logistics & Trust section |
+| Terminal background | `#0a0a0a` | Market Wall only |
+| Price-up green | `#0aa36b` | Market Wall — rising prices |
+| Price-down red | `#ff5555` | Market Wall — falling prices |
 
-Brutalist UI convention: `border-2 border-[#111111]` + `box-shadow: 4px 4px 0 #111111`.
+Brutalist UI convention: `border-2 border-gray-200` + `box-shadow: 4px 4px 0 #2981cf` (blue) or `4px 4px 0 #0aa36b` (green) depending on context.
+
+### Facility color differentiation
+- **Unit 1 (Main Automated Plant):** `#0aa36b` green — primary, high-volume
+- **Unit 2 (Precision Unit):** `#2981cf` blue — specialist, precision
 
 ---
 
