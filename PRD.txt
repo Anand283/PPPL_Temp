@@ -1,0 +1,87 @@
+PRD: B2B Cardboard Manufacturing Digital Brochure
+1. Project Overview
+Objective: Create a static, high-performance "digital brochure" website for an established corrugated cardboard manufacturer in India ($4-5M USD annual turnover).
+
+Primary Goal: Drive qualified B2B leads (strictly bulk orders) to contact sales via phone or email.
+
+Core Rule: No e-commerce checkout. No individual box sales.
+
+2. Target Audience & Tone
+Audience: B2B procurement managers, supply chain directors, and factory owners looking for reliable, high-volume packaging partners.
+
+Vibe/Tone: Industrial Modern, brutalist, data-driven, and highly reliable.
+
+Key Message: "We have the machines, the scale, and the quality (2024 Award Winner) to handle your massive orders on time."
+
+3. Core Features & Content Requirements
+A. The "Market Wall" (Dynamic Pricing Index)
+
+Purpose: Establish transparency and urgency.
+
+UI Behavior: Designed like a sleek stock ticker or data dashboard terminal. Dark mode aesthetic for this specific section.
+
+Data Displayed: Simulated fluctuating spot prices for Kraft paper/raw materials and a baseline index price for a standard high-volume 5-ply RSC box.
+
+Disclaimer: Highly visible styling stating that prices are tied to the market and require a phone call to lock in.
+
+B. The Dual-Facility Capabilities Matrix (Tabbed UI)
+
+Purpose: Clearly separate the manufacturing capabilities of the two units while maintaining a consistent, scannable data layout.
+
+UI Behavior: A clean, minimalist tab or toggle switch. Both tabs use the exact same grid/table design to keep heuristics intact but display different specifications.
+
+Content - Tab 1: Main Automated Plant (High Volume)
+
+Focus: Bulk exterior packaging.
+
+Board Types: 5-ply, 7-ply.
+
+Customization: Fully automatic custom printing (Mono color standard, full color available).
+
+Content - Tab 2: Precision Unit (Partitions & Segments)
+
+Focus: Internal structural integrity and custom sizing.
+
+Capabilities: Dedicated manufacturing for inner partitions, separators, and smaller specialized cardboard segments.
+
+Note: Operates in tandem with the main plant (located 5-10 minutes away) for seamless order integration.
+
+C. Infrastructure, Logistics & Trust
+
+Purpose: Build trust through scale and compliance.
+
+Content: * Logistics: Dedicated transport fleet available for a fee.
+
+Compliance: Government environmental standard adherence.
+
+Authority: Prominent display of the "2024 Best Company for Product Quality and Service" award.
+
+D. The "Frictionless" Order Gateway (Contact Section)
+
+Purpose: Filter out retail buyers and guide bulk buyers.
+
+Content: A clear 3-step graphic (1. Specs, 2. Volume, 3. Call/Email).
+
+Disclaimer: Bold "Bulk Orders Only" badge.
+
+4. Technical Architecture (For Code Generation)
+Framework: React SPA initialized via Vite (npm create vite@latest).
+
+Styling: Tailwind CSS for rapid prototyping of the industrial/brutalist aesthetic.
+
+Icons: lucide-react for clean, modern iconography (menu, phone, email, facility icons).
+
+State Management: React useState to handle the toggling between the Facility 1 and Facility 2 tabs.
+
+Layout: Single-Page Application (SPA) scrolling layout with a sticky navigation bar for quick access to "Market Wall," "Capabilities," "Logistics," and "Contact."
+
+Deployment: The project will be pushed to GitHub and automatically deployed using Vercel.
+
+5. Design System & UI Guidelines
+Color Palette: * Primary: Stark Black (#111111) and Clean White (#F9F9F9).
+
+Accent: Industrial Yellow (#FFD700) or raw Kraft Brown (#C19A6B) for active tabs, buttons, and warnings.
+
+Typography: Oversized, bold sans-serif (e.g., Inter, Roboto Mono for the Market Wall numbers).
+
+Imagery: Use UI placeholders for macro-shots of corrugated flutes, running automated machinery, and the 2024 Award badge.
